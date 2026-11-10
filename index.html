@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Serve Local (beta)</title>
+  <meta name="description" content="Free public beta: find a trusted local cleaner. Booking-first. No payments yet.">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+  <script src="config.js"></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site">
+    <a class="brand" href="#/">Serve Local <span class="tag">beta</span></a>
+    <nav id="nav" aria-label="Main"></nav>
+  </header>
+
+  <div class="beta-banner" role="note">
+    Free public beta. No payments are taken. Cleaning only for now. Please don't share bank or card details.
+  </div>
+
+  <main id="view" class="container" aria-live="polite"></main>
+
+  <footer class="site-footer container">
+    <a href="#/about">About the beta</a>
+    <span aria-hidden="true">·</span>
+    <a href="#/feedback">Send feedback</a>
+  </footer>
+</body>
+</html>
